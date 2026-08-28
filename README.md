@@ -12,6 +12,4 @@ Local FastMCP bridges. Cursor speaks stdio; a DCC-side TCP listener runs command
 | Blender 3.0+ | `127.0.0.1:9876` | add-on + `plygon-blender-mcp` |
 | Houdini 19.5+ | `127.0.0.1:9877` | package + `plygon-houdini-mcp` |
 
-Lineage: [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp) localhost-TCP + FastMCP pattern, stripped for Cursor and studio pipelines. See `THIRD_PARTY.md` in the repo.
-
 [ArtStation](https://www.artstation.com/emil_van_dam) · [LinkedIn](https://www.linkedin.com/in/emil-van-dam-220731198) · [YouTube](https://youtube.com/@emiiiill20)

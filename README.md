@@ -1,13 +1,17 @@
 ### Plygon
 
-Technical 3D environment artist. I build generators, not one-off assets.
+Technical artist. Procedural systems and DCC tooling.
 
-1st year GGP at Howest DAE. Procedural systems, Blender add-ons, local DCC tooling.
+HOWEST DAE, Game Graphics Production. Working stack: Blender (`bpy`, Geometry Nodes, shader / compositor graphs), Houdini (SOP, VEX, HDAs), Python, Unreal PCG.
 
-**Work**
-- [Plygon MCP](https://github.com/Plygonality/Plygon-mcp): local Cursor bridges for Blender (`:9876`) and Houdini (`:9877`). No telemetry.
-- [ArtStation](https://www.artstation.com/emil_van_dam)
-- [LinkedIn](https://www.linkedin.com/in/emil-van-dam-220731198)
-- [YouTube](https://youtube.com/@emiiiill20)
+**[Plygon MCP](https://github.com/Plygonality/Plygon-mcp)**  
+Local FastMCP bridges. Cursor speaks stdio; a DCC-side TCP listener runs commands on the main thread. Scene inspect → mutate → viewport capture → export. MIT. Bind is localhost only. No telemetry.
 
-Blender · Houdini · bpy · Geometry Nodes · Python · MCP
+| DCC | Bind | Process |
+|---|---|---|
+| Blender 3.0+ | `127.0.0.1:9876` | add-on + `plygon-blender-mcp` |
+| Houdini 19.5+ | `127.0.0.1:9877` | package + `plygon-houdini-mcp` |
+
+Lineage: [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp) localhost-TCP + FastMCP pattern, stripped for Cursor and studio pipelines. See `THIRD_PARTY.md` in the repo.
+
+[ArtStation](https://www.artstation.com/emil_van_dam) · [LinkedIn](https://www.linkedin.com/in/emil-van-dam-220731198) · [YouTube](https://youtube.com/@emiiiill20)

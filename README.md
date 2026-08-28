@@ -1,16 +1,13 @@
-## Hi there 👋
+### Plygon
 
-<!--
-**Plygonality/Plygonality** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Technical 3D environment artist. I build generators, not one-off assets.
 
-Here are some ideas to get you started:
+1st year GGP at Howest DAE. Procedural systems, Blender add-ons, local DCC tooling.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Work**
+- [Plygon MCP](https://github.com/Plygonality/Plygon-mcp): local Cursor bridges for Blender (`:9876`) and Houdini (`:9877`). No telemetry.
+- [ArtStation](https://www.artstation.com/emil_van_dam)
+- [LinkedIn](https://www.linkedin.com/in/emil-van-dam-220731198)
+- [YouTube](https://youtube.com/@emiiiill20)
+
+Blender · Houdini · bpy · Geometry Nodes · Python · MCP

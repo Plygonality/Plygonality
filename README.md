@@ -21,15 +21,6 @@ The goal is not to copy node layouts literally. NodeBridge translates the underl
 
 Together, **Plygon MCP** and **NodeBridge** form the core tooling layer: one provides programmatic access to DCC applications, the other makes procedural systems portable between them.
 
-**[gn-as-code](https://github.com/Plygonality/gn-as-code)**  
-Python API for building, dumping, and diffing Blender Geometry Node trees as data. Git is the source of truth; the `.blend` file is a working cache. Graphs can be reconstructed, compared structurally, and applied through Plygon MCP.
-
-**[HDA-as-code](https://github.com/Plygonality/HDA-as-code)**  
-Houdini counterpart to gn-as-code. Typed SOP network builders, canonical graph representation, and structural diffs for procedural Houdini systems. The `.hip` file becomes a working cache rather than the only source of truth.
-
-**[Master Node](https://github.com/Plygonality/Master-Node)**  
-Blender N-panel framework for exposing parameters from category-level master node groups. Designed for procedural material systems where individual materials are parameter configurations rather than independent node trees.
-
 **[Hard Sci-Fi Idea Generator](https://github.com/Plygonality/Hard-SciFi-idea-generator)**  
 Hard sci-fi concept generator for 3D artists. Produces structured megastructure and environment concepts with physical constraints, lighting, palette, scale, and composition guidance.
 

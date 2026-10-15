@@ -1,6 +1,6 @@
 ### Plygon
 
-Technical artist. Procedural systems and DCC tooling.
+Technical artist. Procedural systems, environment art, and DCC tooling.
 
 HOWEST DAE, Game Graphics Production. Working stack: Blender (`bpy`, Geometry Nodes, shader / compositor graphs), Houdini (SOP, VEX, HDAs), Python, Unreal PCG.
 
@@ -12,10 +12,7 @@ Local FastMCP bridges. Cursor speaks stdio; a DCC-side TCP listener runs command
 | Blender 3.0+ | `127.0.0.1:9876` | add-on + `plygon-blender-mcp` |
 | Houdini 19.5+ | `127.0.0.1:9877` | package + `plygon-houdini-mcp` |
 
-### Also public
-
-- **[Master-Node](https://github.com/Plygonality/Master-Node)**: category master material N-panel. Framework public, presets paid.
-- **[gn-as-code](https://github.com/Plygonality/gn-as-code)**: Geometry Node graphs as JSON. Git is source of truth.
-- **[Hard-SciFi-idea-generator](https://github.com/Plygonality/Hard-SciFi-idea-generator)**: constrained hard-sci-fi concept generator for 3D briefs.
+**[NodeBridge](https://github.com/Plygonality/NodeBridge)**  
+A work-in-progress tool for converting procedural node setups between Blender, Houdini, and Unreal Engine.
 
 [ArtStation](https://www.artstation.com/emil_van_dam) · [LinkedIn](https://www.linkedin.com/in/emil-van-dam-220731198) · [YouTube](https://youtube.com/@emiiiill20)

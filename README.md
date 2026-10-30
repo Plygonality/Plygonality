@@ -11,6 +11,7 @@ Local FastMCP bridges. Cursor speaks stdio; a DCC-side TCP listener runs command
 |---|---|---|
 | Blender 3.0+ | `127.0.0.1:9876` | add-on + `plygon-blender-mcp` |
 | Houdini 19.5+ | `127.0.0.1:9877` | package + `plygon-houdini-mcp` |
+| SolidWorks 2022+ | `127.0.0.1:9878` | listener + `plygon-solidworks-mcp` |
 
 **[NodeBridge](https://github.com/Plygonality/NodeBridge)**  
 A work-in-progress tool for converting procedural node setups between Blender, Houdini, and Unreal Engine.
